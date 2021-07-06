@@ -1,3 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.flexible-container ul {
+  display: inline-block;
+}
+.flexible-container li {
+  display: inline-block;
+}
+.top-banner {
+  background-image: linear-gradient(to left, tomato, orange);
+  color: white;
+}
+.link-button {
+  color: white;
+  text-decoration: none;
+}
+.top-right {
+  margin-left: 400px;
+}
+.top-right li {
+  padding: 0px 20px;
+}
+.top-left li {
+  padding: 0px 40px;
+}
+.first-section h1 {
+  font-size: 50px;
+  color: rgb(87, 84, 84);
+}
+.first-section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.margin-top-left {
+  margin-top: 80px;
+  margin-left: 110px;
+}
+.first-section img {
+  width: 80%;
+  margin-left: 80px;
+}
+.first-section p {
+  margin-top: 20px;
+}
+.first-section h3 {
+  font-weight: 400;
+  color: gray;
+}
+.margin-bottom {
+  margin-bottom: 50px;
+}
+.top-margin {
+  margin-top: 40px;
+}
+.orange-color {
+  color: orange;
+}
+.link-button-food {
+  background-image: linear-gradient(to left, tomato, orange);
+  text-decoration: none;
+  color: white;
+  padding: 20px 50px;
+  border-radius: 45px;
+}
+.about-me {
+  margin-left: 700px;
+  margin-top: 90px;
+}
+.second-section h1 {
+  font-size: 50px;
+  padding-top: 150px;
+  color: rgb(87, 84, 84);
+}
+.second-section h3 {
+  font-weight: 400;
+  padding-top: 100px;
+  padding-bottom: 158px;
+}
+.second-section {
+  background-image: url(images/female/7.jpg);
+}
+.text-align {
+  text-align: justify;
+  padding-right: 150px;
 }
